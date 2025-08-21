@@ -83,46 +83,52 @@ p{
         grid-template-areas: 
         'Daniel Daniel  Jonathan kira'
         'Jeanette Patrick  Patrick kira';
-        margin: 20px;
+        
         
     }
 
     #Daniel{
         grid-area: Daniel;
-        width: 650px;
+        width: 670px;
         height: 320px;
+        margin: 15px;
         
     }
 
     #Jonathan{
         grid-area: Jonathan;
-        width: 300px;
+        width: 310px;
         height: 310px;
+        margin: 15px;
 
     }
 
     #Jeanette{
         grid-area: Jeanette;
-        width: 240px;
+        width: 260px;
         height: 280px;
+        margin: 15px;
     }
 
     #Patrick{
         grid-area: Patrick;
-        width: 715px;
+        width: 735px;
         height: 285px;
+        margin: 15px;
     }
 
     #kira{
         grid-area: kira;
-        width: 250px;
-        height: 675px;
+        width: 270px;
+        height: 655px;
+        margin: 15px;
     }
 
     .titulo_texts{
     font-size: 24px;
     line-height: 20px;
-   
+    
+
 }
 .texts{
     margin: 2px;
