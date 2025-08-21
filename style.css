@@ -24,6 +24,7 @@ img{
 .titulo_texts{
     font-size: 26px;
     line-height: 27px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
    
 }
 .texts{
@@ -33,6 +34,7 @@ p{
     font-size: 17px;
     color: rgb(226, 225, 225);
     padding: 5px;
+    font-family: 'Barlow', sans-serif;
 }
 .color_p{
     color: black;
@@ -83,6 +85,7 @@ p{
         grid-template-areas: 
         'Daniel Daniel  Jonathan kira'
         'Jeanette Patrick  Patrick kira';
+        gap: 3px;
         
         
     }
@@ -126,7 +129,8 @@ p{
 
     .titulo_texts{
     font-size: 24px;
-    line-height: 20px;
+    line-height: 22px;
+     font-family: 'Barlow Semi Condensed', sans-serif;
     
 
 }
@@ -137,6 +141,7 @@ p{
     font-size: 15px;
     padding: 5px;
     line-height: 20px;
+    font-family: 'Barlow', sans-serif;
 
 
 
