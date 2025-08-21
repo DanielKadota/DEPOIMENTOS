@@ -1,0 +1,141 @@
+body{
+    background-color: #C5C5C5;
+    flex-direction: column;
+    
+}
+img{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 20px;  
+}
+.img_names{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.titulo_texts{
+    font-size: 26px;
+    line-height: 27px;
+   
+}
+.texts{
+    margin: 2px;
+}
+p{
+    font-size: 17px;
+    color: rgb(226, 225, 225);
+    padding: 5px;
+}
+.color_p{
+    color: black;
+}
+
+#Daniel{
+    color: white;
+    background-color: #733FC8;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+
+#Jonathan{
+    color: white;
+    background-color: #48556A;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 12px;    
+}
+#Jeanette{
+    background-color: white;
+    margin: 25px;
+    padding: 12px;
+    border-radius: 12px;
+
+}
+#Patrick{
+    color: rgb(190, 190, 190);
+    background-color:#17202B;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 12px;
+}
+#kira{
+    color: black;
+    background-color: white;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+@media (min-width: 1200px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        'Daniel Daniel  Jonathan kira'
+        'Jeanette Patrick  Patrick kira';
+        margin: 20px;
+        
+    }
+
+    #Daniel{
+        grid-area: Daniel;
+        width: 650px;
+        height: 320px;
+        
+    }
+
+    #Jonathan{
+        grid-area: Jonathan;
+        width: 300px;
+        height: 310px;
+
+    }
+
+    #Jeanette{
+        grid-area: Jeanette;
+        width: 240px;
+        height: 280px;
+    }
+
+    #Patrick{
+        grid-area: Patrick;
+        width: 715px;
+        height: 285px;
+    }
+
+    #kira{
+        grid-area: kira;
+        width: 250px;
+        height: 675px;
+    }
+
+    .titulo_texts{
+    font-size: 24px;
+    line-height: 20px;
+   
+}
+.texts{
+    margin: 2px;
+}
+p{
+    font-size: 15px;
+    padding: 5px;
+    line-height: 20px;
+
+
+
+
+    
+}
+
+}
