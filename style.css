@@ -15,6 +15,14 @@
     --shadow: 0px 5px 10px rgba(0,0,0,0.25);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 
 
 body{
@@ -98,7 +106,7 @@ p{
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     body{
         background-color: #F2F2F2;
         display: grid;
@@ -106,16 +114,19 @@ p{
         'Daniel Daniel  Jonathan kira'
         'Jeanette Patrick  Patrick kira';
         gap: 0px;
-        padding: 50px;
+        padding: 40px;
         
         
         
+        
+
     }
+    
 
     #Daniel{
         grid-area: Daniel;
-        width: 600px;
-        height: 320px;
+        width: 690px;
+        height: 360px;
         margin: 15px;
         padding: 30px;
         box-shadow: var(--shadow);
@@ -124,18 +135,18 @@ p{
 
     #Jonathan{
         grid-area: Jonathan;
-        width: 250px;
-        height: 335px;
+        width: 300px;
+        height: 360px;
         margin: 15px;
-        padding: 27px;
+        padding: 22px;
         box-shadow:var(--shadow);
 
     }
 
     #Jeanette{
         grid-area: Jeanette;
-        width: 220px;
-        height: 275px;
+        width: 340px;
+        height: 303px;
         margin: 15px;
         padding: 30px;
         box-shadow: var(--shadow);
@@ -143,24 +154,24 @@ p{
 
     #Patrick{
         grid-area: Patrick;
-        width: 645px;
-        height: 282px;
-        margin: 15px;
+        width: 670px;
+        height: 310px;
+        margin: 10px;
         padding: 30px;
         box-shadow: var(--shadow);
     }
 
     #kira{
         grid-area: kira;
-        width: 200px;
-        height: 695px;
+        width: 270px;
+        height: 700px;
         margin: 15px;
-        padding: 30px;
+        padding: 25px;
         box-shadow: var(--shadow);
     }
 
     .titulo_texts{
-    font-size: 20px;
+    font-size: 22px;
     line-height: 22px;
     font-family: var(--fonte-titulo);
     
@@ -170,7 +181,7 @@ p{
     margin: 2px;
 }
 p{
-    font-size: 13px;
+    font-size: 14px;
     padding: 5px;
     line-height: 20px;
     font-family: var(--fonte-paragrafos);
