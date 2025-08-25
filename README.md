@@ -1,19 +1,26 @@
-# Projeto: Testimonials grid section
+# Testimonials Grid Section
 
+Um layout responsivo de cards de depoimentos (testimonials), desenvolvido com **HTML** e **CSS Grid**, baseado em um desafio do Frontend Mentor.
 
+---
 
-## Contem Layout Responsivo
+##  Tecnologias utilizadas
+- HTML5 semântico
+- CSS3 (Flexbox, Grid Layout, variáveis CSS)
+- Responsividade (mobile-first)
 
+---
 
+## Layout Responsivo
+O projeto foi desenvolvido para se adaptar a diferentes tamanhos de tela:
 
-## O Que Posso Melhorar:
+- Mobile (375px)
+- Desktop (1200px+)
 
+---
 
-
-  <p>Melhorar a forma de codar utilizando variaveis em CSS com mais frequencia</p>
-
-  <p>Deixar o codigo mais limpo de forma mais facil para entender</p>
-
-
-<p> Melhorar a forma de digitar o Readme.md</p>
+##  Melhorias futuras
+- Usar variáveis CSS para cores, espaçamentos e sombras
+- Deixar o código mais limpo e organizado (boas práticas de CSS)
+- Melhorar a documentação do projeto
 
