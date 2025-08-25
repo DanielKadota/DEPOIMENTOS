@@ -1,3 +1,11 @@
+:root{
+    --fonte-paragrafos : 'Barlow', sans-serif;
+
+    --fonte-titulo :'Barlow Semi Condensed', sans-serif;
+}
+
+
+
 body{
     background-color: #C5C5C5;
     flex-direction: column;
@@ -24,7 +32,7 @@ img{
 .titulo_texts{
     font-size: 26px;
     line-height: 27px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: var(--fonte-titulo)
    
 }
 .texts{
@@ -34,7 +42,7 @@ p{
     font-size: 17px;
     color: rgb(226, 225, 225);
     padding: 5px;
-    font-family: 'Barlow', sans-serif;
+    font-family: var(--fonte-paragrafos)
 }
 .color_p{
     color: black;
@@ -143,7 +151,7 @@ p{
     .titulo_texts{
     font-size: 20px;
     line-height: 22px;
-     font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: var(--fonte-titulo);
     
 
 }
@@ -154,12 +162,8 @@ p{
     font-size: 13px;
     padding: 5px;
     line-height: 20px;
-    font-family: 'Barlow', sans-serif;
+    font-family: var(--fonte-paragrafos)
 
-
-
-
-    
 }
 
 }
