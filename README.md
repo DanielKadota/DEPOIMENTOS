@@ -1,14 +1,14 @@
 # Projeto: Testimonials grid section
 
-<hr>
+
 
 ## Contem Layout Responsivo
 
-<hr>
+
 
 ## O Que Posso Melhorar:
 
-<hr>
+
 
   <p>Melhorar a forma de codar utilizando variaveis em CSS com mais frequencia</p>
 
