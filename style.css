@@ -1,7 +1,18 @@
 :root{
+    /*fontes*/
     --fonte-paragrafos : 'Barlow', sans-serif;
-
     --fonte-titulo :'Barlow Semi Condensed', sans-serif;
+
+    /*cores gerais*/
+
+    --cor-bg: #C5C5C5;
+    --cor-card1: #733FC8;
+    --cor-card2: #48556A;
+    --cor-card3: #17202B;
+    --cor-branco: #FFFFFF;
+    --cor-texto-claro: #E2E1E1;
+    --cor-texto-escuro: #000000;
+    --shadow: 0px 5px 10px rgba(0,0,0,0.25);
 }
 
 
@@ -40,17 +51,17 @@ img{
 }
 p{
     font-size: 17px;
-    color: rgb(226, 225, 225);
+    color: var(--cor-texto-claro);
     padding: 5px;
     font-family: var(--fonte-paragrafos)
 }
 .color_p{
-    color: black;
+    color: var(--cor-texto-escuro);
 }
 
 #Daniel{
-    color: white;
-    background-color: #733FC8;
+    color: var(--cor-branco);
+    background-color: var(--cor-card1);
     margin: 25px;
     padding: 10px;
     border-radius: 12px;
@@ -58,14 +69,14 @@ p{
 }
 
 #Jonathan{
-    color: white;
-    background-color: #48556A;
+    color: var(--cor-branco);
+    background-color: var(--cor-card2);
     margin: 25px;
     padding: 15px;
     border-radius: 12px;    
 }
 #Jeanette{
-    background-color: white;
+    background-color: var(--cor-branco);
     margin: 25px;
     padding: 12px;
     border-radius: 12px;
@@ -73,14 +84,14 @@ p{
 }
 #Patrick{
     color: rgb(190, 190, 190);
-    background-color:#17202B;
+    background-color:var(--cor-card3);
     margin: 25px;
     padding: 10px;
     border-radius: 12px;
 }
 #kira{
-    color: black;
-    background-color: white;
+    color: var(--cor-texto-escuro);
+    background-color: var(--cor-branco);
     margin: 25px;
     padding: 10px;
     border-radius: 12px;
@@ -107,7 +118,7 @@ p{
         height: 320px;
         margin: 15px;
         padding: 30px;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        box-shadow: var(--shadow);
         
     }
 
@@ -117,7 +128,7 @@ p{
         height: 335px;
         margin: 15px;
         padding: 27px;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        box-shadow:var(--shadow);
 
     }
 
@@ -127,7 +138,7 @@ p{
         height: 275px;
         margin: 15px;
         padding: 30px;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        box-shadow: var(--shadow);
     }
 
     #Patrick{
@@ -136,7 +147,7 @@ p{
         height: 282px;
         margin: 15px;
         padding: 30px;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        box-shadow: var(--shadow);
     }
 
     #kira{
@@ -145,7 +156,7 @@ p{
         height: 695px;
         margin: 15px;
         padding: 30px;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        box-shadow: var(--shadow);
     }
 
     .titulo_texts{
@@ -162,8 +173,7 @@ p{
     font-size: 13px;
     padding: 5px;
     line-height: 20px;
-    font-family: var(--fonte-paragrafos)
-
+    font-family: var(--fonte-paragrafos);
 }
 
 }
